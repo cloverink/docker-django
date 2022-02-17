@@ -8,7 +8,6 @@ jobs:
   build-docker:
     name: Build Docker image and push to repositories
     runs-on: ubuntu-latest
-    needs: quality-gate
 
     steps:
       - name: Checkout code
