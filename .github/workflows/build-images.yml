@@ -22,7 +22,7 @@ jobs:
         with:
           registry: ghcr.io
           username: cloverink
-          password: ${{ secrets.GHCR_PAT }}
+          password: ${{ secrets.ACCESS_TOKEN }}
 
       - name: Build image and push to GitHub Container Registry
         uses: docker/build-push-action@v2
