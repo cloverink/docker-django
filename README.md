@@ -14,5 +14,5 @@
 ### How to use
 
 ```
-
+ghcr.io/cloverink/docker-django:latest
 ```
