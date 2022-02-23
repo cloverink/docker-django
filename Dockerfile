@@ -12,7 +12,7 @@ RUN apk add --no-cache --virtual .build-deps \
 
 RUN pip install --upgrade pip
 
-RUN pip install pandas==1.1.5 --no-cache-dir
+RUN pip install pandas==1.1.5
 
 RUN pip install uwsgi -I --no-cache-dir
 
