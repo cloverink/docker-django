@@ -14,6 +14,10 @@ RUN pip install --upgrade pip
 
 RUN pip install pandas==1.1.5
 
+RUN pip install django-compressor==3.1
+
+RUN pip install django-libsass==0.7
+
 RUN pip install uwsgi -I --no-cache-dir
 
 EXPOSE 8000
