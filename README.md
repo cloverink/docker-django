@@ -9,7 +9,8 @@
 - pip
 - uwsgi
 - pandas 1.1.5
-
+- django-compressor 3.1
+- django-libsass 0.7
 
 ### How to use
 
